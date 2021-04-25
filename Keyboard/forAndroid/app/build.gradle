@@ -1,4 +1,4 @@
-// (c) 2020 The ACE Centre-North, UK registered charity 1089313.
+// (c) 2021 The ACE Centre-North, UK registered charity 1089313.
 // MIT licensed, see https://opensource.org/licenses/MIT
 
 apply plugin: 'com.android.application'
@@ -10,7 +10,7 @@ android {
 
     sourceSets {
         main.assets.srcDirs += new File(new File(
-                rootDir.getParent()).getParent(), "browser")
+                rootDir.getParent()), "WebResources")
     }
 
     buildToolsVersion "29.0.2"
