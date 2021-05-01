@@ -8,7 +8,7 @@
 import PageBuilder from "./pagebuilder.js";
 
 import UserInterface from "./dasher-web/browser/dasher/userinterface.js"
-import PredictorCompletions from "./dasher-web/browser/dasher/predictor_completions.js"
+import PredictorCompletions from "./predictor_completions.js"
 import predictor_basic from './dasher-web/browser/dasher/predictor.js';
 
 // Cheeky constants that are strings but declared without strings being used.

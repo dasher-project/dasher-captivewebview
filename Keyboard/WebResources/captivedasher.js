@@ -10,7 +10,7 @@ import PageBuilder from "./dasher-web/browser/pagebuilder.js";
 import predictor_dummy from './dasher-web/browser/dasher/predictor_dummy.js'
 import predictor_basic from './dasher-web/browser/dasher/predictor.js';
 import predictor_test from './dasher-web/browser/dasher/predictor_test.js';
-import PredictorCompletions from "./dasher-web/browser/dasher/predictor_completions.js"
+import PredictorCompletions from "./predictor_completions.js"
 
 import UserInterface from "./dasher-web/browser/dasher/userinterface.js"
 
