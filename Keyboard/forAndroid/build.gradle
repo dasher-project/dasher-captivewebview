@@ -21,12 +21,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-
-        // First, in the `captive-web-view` project, execute the Gradle task:
-        // forAndroid/Tasks/upload/uploadArchives.
-        maven {
-            url uri(new File(rootDir, '../../captive-web-view/m2repository'))
-        }
     }
 }
 
