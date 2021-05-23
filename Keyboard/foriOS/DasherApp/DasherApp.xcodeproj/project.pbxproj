@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0450AE522455FD6C0002CF00 /* browser in Resources */ = {isa = PBXBuildFile; fileRef = 0493224023BBA79C00A17898 /* browser */; };
 		0457D8FC2455F6A700B883E7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457D8F52455F6A700B883E7 /* MainViewController.swift */; };
 		0457D8FD2455F6A700B883E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0457D8F62455F6A700B883E7 /* Assets.xcassets */; };
 		0457D8FE2455F6A700B883E7 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457D8F72455F6A700B883E7 /* Commands.swift */; };
 		0457D8FF2455F6A700B883E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457D8F82455F6A700B883E7 /* LaunchScreen.storyboard */; };
 		0457D9002455F6A700B883E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457D8FA2455F6A700B883E7 /* AppDelegate.swift */; };
 		0457D9052455F6B300B883E7 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457D9032455F6B300B883E7 /* KeyboardViewController.swift */; };
-		0493224123BBA79C00A17898 /* browser in Resources */ = {isa = PBXBuildFile; fileRef = 0493224023BBA79C00A17898 /* browser */; };
 		04A876EB2455FB51008E12AD /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0400FFEE23BB5788009AF4A0 /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04B9B89F26386F4B00EDEF07 /* WebResources in Resources */ = {isa = PBXBuildFile; fileRef = 04B9B89E26386F4B00EDEF07 /* WebResources */; };
+		04B9B8A026386F4B00EDEF07 /* WebResources in Resources */ = {isa = PBXBuildFile; fileRef = 04B9B89E26386F4B00EDEF07 /* WebResources */; };
 		04C4248923F9484300CCC4E4 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F46D3B23EBE32C00B00168 /* Predictor.swift */; };
 		04ECEA5F25670047000207E9 /* CaptiveWebView in Frameworks */ = {isa = PBXBuildFile; productRef = 04ECEA5E25670047000207E9 /* CaptiveWebView */; };
 		04ECEA6225670135000207E9 /* CaptiveWebView in Frameworks */ = {isa = PBXBuildFile; productRef = 04ECEA6125670135000207E9 /* CaptiveWebView */; };
@@ -56,7 +56,7 @@
 		0457D8FB2455F6A700B883E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0457D9032455F6B300B883E7 /* KeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		0457D9042455F6B300B883E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0493224023BBA79C00A17898 /* browser */ = {isa = PBXFileReference; lastKnownFileType = folder; name = browser; path = ../../../browser; sourceTree = "<group>"; };
+		04B9B89E26386F4B00EDEF07 /* WebResources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebResources; path = ../../WebResources; sourceTree = "<group>"; };
 		04D77CB623BB56B500C25698 /* Dasher v6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dasher v6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F46D3B23EBE32C00B00168 /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,9 +121,9 @@
 		04D77CAD23BB56B500C25698 = {
 			isa = PBXGroup;
 			children = (
+				04B9B89E26386F4B00EDEF07 /* WebResources */,
 				0457D9022455F6B300B883E7 /* Keyboard */,
 				0457D8F42455F6A700B883E7 /* App */,
-				0493224023BBA79C00A17898 /* browser */,
 				04C4248A23F9489E00CCC4E4 /* Common */,
 				04D77CB723BB56B500C25698 /* Products */,
 				049D59BB23BB5DAC00C0171B /* Frameworks */,
@@ -191,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Ace Centre-North";
 				TargetAttributes = {
 					0400FFED23BB5788009AF4A0 = {
@@ -230,7 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0450AE522455FD6C0002CF00 /* browser in Resources */,
+				04B9B8A026386F4B00EDEF07 /* WebResources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0457D8FF2455F6A700B883E7 /* LaunchScreen.storyboard in Resources */,
+				04B9B89F26386F4B00EDEF07 /* WebResources in Resources */,
 				0457D8FD2455F6A700B883E7 /* Assets.xcassets in Resources */,
-				0493224123BBA79C00A17898 /* browser in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +362,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -424,6 +425,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

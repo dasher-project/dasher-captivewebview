@@ -1,4 +1,4 @@
-// (c) 2020 The ACE Centre-North, UK registered charity 1089313.
+// (c) 2021 The ACE Centre-North, UK registered charity 1089313.
 // MIT licensed, see https://opensource.org/licenses/MIT
 //
 // Some code copied from a Captive Web View sample, see:  
@@ -7,9 +7,9 @@
 // Import the Captive Web View simple page builder.
 import PageBuilder from "./pagebuilder.js";
 
-import UserInterface from "./userinterface.js"
+import UserInterface from "./dasher-web/browser/dasher/userinterface.js"
 import PredictorCompletions from "./predictor_completions.js"
-import predictor_basic from './predictor.js';
+import predictor_basic from './dasher-web/browser/dasher/predictor.js';
 
 // Cheeky constants that are strings but declared without strings being used.
 const KEY = {

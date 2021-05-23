@@ -1,18 +1,18 @@
-// (c) 2020 The ACE Centre-North, UK registered charity 1089313.
+// (c) 2021 The ACE Centre-North, UK registered charity 1089313.
 // MIT licensed, see https://opensource.org/licenses/MIT
 //
 // Some code copied from a Captive Web View sample, see:  
 // https://github.com/vmware/captive-web-view/blob/master/forAndroid/Captivity/src/main/assets/UserInterface/captivity.js
 
 // Import the Captive Web View simple page builder.
-import PageBuilder from "./pagebuilder.js";
+import PageBuilder from "./dasher-web/browser/pagebuilder.js";
 
-import predictor_dummy from './predictor_dummy.js'
-import predictor_basic from './predictor.js';
-import predictor_test from './predictor_test.js';
+import predictor_dummy from './dasher-web/browser/dasher/predictor_dummy.js'
+import predictor_basic from './dasher-web/browser/dasher/predictor.js';
+import predictor_test from './dasher-web/browser/dasher/predictor_test.js';
 import PredictorCompletions from "./predictor_completions.js"
 
-import UserInterface from "./userinterface.js"
+import UserInterface from "./dasher-web/browser/dasher/userinterface.js"
 
 class CaptiveDasher {
     constructor(bridge) {

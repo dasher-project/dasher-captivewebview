@@ -689,4 +689,7 @@ UIInputViewController, CaptiveWebViewCommandHandler
         return returning
     }
     
+    func logCaptiveWebViewCommandHandler(_ message:String) {
+        self.log(message)
+    }
 }

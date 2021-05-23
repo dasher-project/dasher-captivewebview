@@ -1,14 +1,21 @@
-// (c) 2020 The ACE Centre-North, UK registered charity 1089313.
+// (c) 2021 The ACE Centre-North, UK registered charity 1089313.
 // MIT licensed, see https://opensource.org/licenses/MIT
 
 /*
 Predictor subclass that can be interfaced with the native UITextChecker via a
 bridge to Captive Web View for iOS.
+
+This file was part of the mass import from the original Dasher Version Six
+repository. The mass import is how the Dasher Captive Web View repository was
+created. By mistake, this file was git rm'd instead of being git mv'd to its
+current location. That was fixed by copying the file, but that lost the history. The history was only two commits. In case you want to see them, the original imported location is like this:  
+https://github.com/dasher-project/dasher-captivewebview/blob/main/browser/dasher/predictor_completions.js
+
 */
 
 const codePointSpace = " ".codePointAt(0);
 
-import predictor_basic from './predictor.js';
+import predictor_basic from './dasher-web/browser/dasher/predictor.js';
 
 export default class PredictorCompletions {
 

@@ -1,3 +1,6 @@
 [submodule "captive-web-view"]
-	path = captive-web-view
+	path = Keyboard/forAndroid/captive-web-view
 	url = https://github.com/vmware/captive-web-view.git
+[submodule "Keyboard/WebResources/dasher-web"]
+	path = Keyboard/WebResources/dasher-web
+	url = https://github.com/dasher-project/redash.git
