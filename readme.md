@@ -1,9 +1,11 @@
 [![Build Status](https://travis-ci.com/dasher-project/redash.svg?branch=master)](https://travis-ci.com/dasher-project/redash)
 
-![Dasher](tests/screenshot.png)
-
-
 # Dasher in Web Technologies
+![Custom keyboard for Android](documents/ScreenCaptures/Keyboard_Android.png)
+![Custom keyboard for iOS](documents/ScreenCaptures/Keyboard_iOS.png)
+
+
+
 Proofs of concept for Dasher zooming text entry implemented in web technologies.
 
 -   Browser.
