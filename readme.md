@@ -28,7 +28,7 @@ The first project is the Dasher Web custom keyboards for Android and iOS.
     [Keyboard](Keyboard) sub-directory. The keyboard is packaged in an app.
 
 For more screen capture images, see the
-[ScreenCaptures][documents/ScreenCaptures] directory.
+[ScreenCaptures](documents/ScreenCaptures) directory.
 
 # Backlog
 Check out our comprehensive [backlog](documents/Backlog.md), and send us a
