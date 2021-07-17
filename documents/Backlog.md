@@ -17,6 +17,10 @@
     -   [https://support.apple.com/en-gb/guide/mac-help/mh43606/10.15/mac/10.15](https://support.apple.com/en-gb/guide/mac-help/mh43606/10.15/mac/10.15)
     -   [https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html#//apple_ref/doc/uid/10000172i-SW7-BCIEDDBJ](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html#//apple_ref/doc/uid/10000172i-SW7-BCIEDDBJ)
 
+    Detecting key presses natively might be required. If it is, then see the following page.
+    
+    -   [https://developer.apple.com/documentation/uikit/keyboards_and_input/adding_hardware_keyboard_support_to_your_app](https://developer.apple.com/documentation/uikit/keyboards_and_input/adding_hardware_keyboard_support_to_your_app)
+
 # License
 Copyright (c) 2021 The ACE Centre-North, UK registered charity 1089313.  
 MIT licensed, see
