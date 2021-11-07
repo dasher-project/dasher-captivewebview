@@ -2,7 +2,8 @@
 This directory is for the proof-of-concept custom keyboard for Android.
 
 # Build Instructions
-These instructions have been tested with version 4.1.1 of Android Studio.
+These instructions have been tested with Android Studio Arctic Fox 2020.3.1
+Patch 3.
 
 -   There is a dependency on the library for Android in the captive-web-view
     submodule. Build the dependency first, as follows.
@@ -11,12 +12,11 @@ These instructions have been tested with version 4.1.1 of Android Studio.
     2.  Close any open projects, to avoid accidents.
     3.  Open as an existing project this location:
 
-            /where/you/cloned/redash/captive-web-view/forAndroid/
+            /where/you/cloned/dasher-captivewebview/Keyboard/forAndroid/captive-web-view/forAndroid
         
         Note: Don't select any file under that directory.
     
-    4.  Android Studio prompts you to Gradle Sync because it is unable to get
-        Gradle wrapper properties. Select OK and the project will build.
+    4.  Wait for any Gradle sync in Android Studio to finish.
     
     5.  Execute the Gradle task: forAndroid/Tasks/upload/uploadArchives
 
@@ -25,7 +25,7 @@ These instructions have been tested with version 4.1.1 of Android Studio.
     ![**Screen Capture:** Location of the Captive Web View build task](../../documents/ScreenCaptures/IDE/AndroidStudio_CaptiveWebView_build.png)
 
     That should create a maven repository under the directory:
-    `/where/you/cloned/redash/captive-web-view/m2repository/`
+    `/where/you/cloned/dasher-captivewebview/Keyboard/forAndroid/captive-web-view/m2repository/`
 
     The repository will contain the dependency and it can be included in the
     custom keyboard project.
@@ -36,13 +36,12 @@ These instructions have been tested with version 4.1.1 of Android Studio.
     2.  Close any open projects, to avoid accidents.
     3.  Open as an existing project this location:
 
-            /where/you/cloned/redash/Keyboard/forAndroid/
+            /where/you/cloned/dasher-captivewebview/Keyboard/forAndroid/
         
         Note: Don't select any file under that directory.
     
-    4.  Android Studio prompts you to Gradle Sync because it is unable to get
-        Gradle wrapper properties. Select OK and the project will synchronise
-        and configure its build. It might take a minute or two first time.
+    4.  Wait for any Gradle sync in Android Studio to finish. It might take a
+        minute or two first time.
 
 -   To install the keyboard via adb, execute the Gradle task:  
     DasherKeyboard/Tasks/install/installDebug
@@ -64,6 +63,6 @@ These instructions have been tested with version 4.1.1 of Android Studio.
     3.  Select 'Dasher Keyboard' in the alert.
 
 # License
-Copyright (c) 2020 The ACE Centre-North, UK registered charity 1089313.  
+Copyright (c) 2021 The ACE Centre-North, UK registered charity 1089313.  
 MIT licensed, see
 [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
