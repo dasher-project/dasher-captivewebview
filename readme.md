@@ -1,10 +1,8 @@
-[![Build Status](https://travis-ci.com/dasher-project/redash.svg?branch=master)](https://travis-ci.com/dasher-project/redash)
-
 # Dasher Web in Captive Web View
 This repository is for mobile and desktop apps that package Dasher Web in a
 Captive Web View.
 
--   [Dasher Web](https://github.com/dasher-project/redash) is an Open Source
+-   [Dasher Web](https://github.com/dasher-project/dasher-web) is an Open Source
     re-implementation in web technologies of the original Dasher zooming text
     entry user interface.
 -   [Captive Web View](https://github.com/vmware/captive-web-view) is a VMware

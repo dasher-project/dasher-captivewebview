@@ -46,7 +46,7 @@ custom keyboard for iOS, above.
 
 # Document Information
 This content is part of the Dasher project and is under revision control here:  
-[https://github.com/dasher-project/redash](https://github.com/dasher-project/redash)
+[https://github.com/dasher-project/dasher-captivewebview](https://github.com/dasher-project/dasher-captivewebview)
 
 (c) 2020 The ACE Centre-North, UK registered charity 1089313.  
 MIT licensed, see [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
