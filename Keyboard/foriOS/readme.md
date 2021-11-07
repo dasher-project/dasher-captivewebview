@@ -18,7 +18,7 @@ Notes
 
 -   Instructions for adding Captive Web View for iOS are in its repository,
     here:  
-    [https://github.com/vmware/captive-web-view/tree/master/foriOS](https://github.com/vmware/captive-web-view/tree/master/foriOS)
+    [https://github.com/vmware/captive-web-view/tree/main/forApple](https://github.com/vmware/captive-web-view/tree/main/forApple)
 
     You might have to build the Captive Web View target separately before you
     can build the custom keyboard.
@@ -74,6 +74,6 @@ Notes
 
 License
 =======
-Copyright (c) 2020 The ACE Centre-North, UK registered charity 1089313.  
+Copyright (c) 2021 The ACE Centre-North, UK registered charity 1089313.  
 MIT licensed, see
 [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).

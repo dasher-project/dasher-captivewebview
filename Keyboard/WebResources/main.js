@@ -1,8 +1,8 @@
-// (c) 2020 The ACE Centre-North, UK registered charity 1089313.
+// (c) 2021 The ACE Centre-North, UK registered charity 1089313.
 // MIT licensed, see https://]]source.org/licenses/MIT
 //
 // Some code copied from a Captive Web View template. See:  
-// https://github.com/vmware/captive-web-view/blob/master/foriOS/readme.md
+// https://github.com/vmware/captive-web-view/tree/main/forApple
 
 class Main {
     constructor(bridge) {
