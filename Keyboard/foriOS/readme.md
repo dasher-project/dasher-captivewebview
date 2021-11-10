@@ -10,18 +10,19 @@ Notes
 
     Contents of the workspace are as follows.
 
-    -   Keyboard, the Xcode project for this proof of concept.
-        -   browser, reference to the HTML, CSS, and JavaScript.
-        -   ContainingApplication, required to package the keyboard.
-        -   Extension, the actual custom keyboard code.
-    -   CaptiveWebView, reference to the submodule.
+    -   DasherApp, the Xcode project for this proof of concept.
+        -   WebResources, reference to the HTML, CSS, and JavaScript.
+        -   Keyboard, code specific to the custom keyboard extension.
+        -   App, code specific to the containing app whose bundle includes the
+            keyboard.
+        -   Common, code shared by the app and the extension.
+    -   CaptiveWebView, reference to the Swift package for the Captive Web View
+        code. The Captive Web View repository is compatible with Swift Package
+        Manager in Xcode.
 
 -   Instructions for adding Captive Web View for iOS are in its repository,
     here:  
-    [https://github.com/vmware/captive-web-view/tree/master/foriOS](https://github.com/vmware/captive-web-view/tree/master/foriOS)
-
-    You might have to build the Captive Web View target separately before you
-    can build the custom keyboard.
+    [https://github.com/vmware/captive-web-view/tree/main/forApple](https://github.com/vmware/captive-web-view/tree/main/forApple)
 
 -   ToDo: Raise an issue on Captive Web View about the retain cycle and message
     handler.
@@ -74,6 +75,6 @@ Notes
 
 License
 =======
-Copyright (c) 2020 The ACE Centre-North, UK registered charity 1089313.  
+Copyright (c) 2021 The ACE Centre-North, UK registered charity 1089313.  
 MIT licensed, see
 [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).

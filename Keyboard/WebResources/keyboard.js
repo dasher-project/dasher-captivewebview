@@ -2,7 +2,7 @@
 // MIT licensed, see https://opensource.org/licenses/MIT
 //
 // Some code copied from a Captive Web View sample, see:  
-// https://github.com/vmware/captive-web-view/blob/master/forAndroid/Captivity/src/main/assets/UserInterface/captivity.js
+// https://github.com/vmware/captive-web-view/blob/main/WebResources/Captivity/UserInterface/captivity.js
 
 // Import the Captive Web View simple page builder.
 import PageBuilder from "./pagebuilder.js";

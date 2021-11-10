@@ -3,4 +3,4 @@
 	url = https://github.com/vmware/captive-web-view.git
 [submodule "Keyboard/WebResources/dasher-web"]
 	path = Keyboard/WebResources/dasher-web
-	url = https://github.com/dasher-project/redash.git
+	url = https://github.com/dasher-project/dasher-web.git
