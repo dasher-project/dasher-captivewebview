@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
-(c) 2020 The ACE Centre-North, UK registered charity 1089313.
+(c) 2022 The ACE Centre-North, UK registered charity 1089313.
 MIT licensed, see https://opensource.org/licenses/MIT
 
 -->
@@ -15,8 +15,14 @@ MIT licensed, see https://opensource.org/licenses/MIT
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <service android:name="com.example.dasherkeyboard.DasherInputMethodService" android:label="@string/dasherinputmethodservice" android:permission="android.permission.BIND_INPUT_METHOD">
-            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        <service
+            android:name="com.example.dasherkeyboard.DasherInputMethodService"
+            android:label="@string/dasherinputmethodservice"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:exported="true">
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method"/>
             <intent-filter>
                 <action android:name="android.view.InputMethod"/>
             </intent-filter>
