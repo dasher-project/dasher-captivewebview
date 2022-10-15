@@ -5,9 +5,10 @@ This directory is for the proof-of-concept custom keyboard for Android.
 These instructions have been tested with Android Studio
 Chipmunk 2021.2.1 Patch 2.
 
--   There is a dependency on the library for Android in the captive-web-view
-    submodule. The library is included in the `settings.gradle` file and as a
-    built dependency in the app `build.gradle` file, so it builds from source.
+-   The custom keyboard project depends on the library for Android in the
+    captive-web-view submodule. The library is included in the `settings.gradle`
+    file, and as a built dependency in the app `build.gradle` file, so it builds
+    from source.
     
     The build configuration of this project previously required that the library
     was first published to a local Maven repository.
