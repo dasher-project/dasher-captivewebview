@@ -2,6 +2,12 @@ Custom Keyboard for iOS
 =======================
 This directory is for the proof-of-concept custom keyboard for iOS.
 
+The latest versions with which the app and keyboard have been tested are
+
+-   14.0.1 Xcode.
+-   15.6.7 iOS.
+-   15.7 iPadOS. 
+
 Notes
 =====
 -   The iOS project has a workspace. This means that you should in general
@@ -75,6 +81,6 @@ Notes
 
 License
 =======
-Copyright (c) 2021 The ACE Centre-North, UK registered charity 1089313.  
+Copyright (c) 2022 The ACE Centre-North, UK registered charity 1089313.  
 MIT licensed, see
 [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT).
