@@ -1,7 +1,7 @@
 //
 //  Predictor.swift
 //
-// (c) 2020 The ACE Centre-North, UK registered charity 1089313.
+// (c) 2022 The ACE Centre-North, UK registered charity 1089313.
 // MIT licensed, see https://opensource.org/licenses/MIT
 //
 
@@ -62,6 +62,9 @@ class Predictor {
         // https://forums.developer.apple.com/thread/47354
         let range = NSMakeRange(input.utf16.count, -1)
             
+        // Next line generates an error message like this.
+        // Dasher v6[10345:651947] *** -[__NSCFString substringWithRange:]: Range {9, 18446744073709551615} out of bounds; string length 9. This will become an exception for apps linked after 10.10 and iOS 8. Warning shown once per app execution.
+
         let returning = textChecker.completions(
             forPartialWordRange: range,
             in: input,
